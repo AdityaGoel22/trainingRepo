@@ -1,6 +1,6 @@
 # trainingRepo
 
-##Git
+## Git
 
 to config the details use command
 
