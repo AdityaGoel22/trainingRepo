@@ -13,3 +13,15 @@ git config --global user.email "email"
 git init
 
 git remote add origin link-to-repo
+
+#### to upload code
+
+git add "filename"
+
+git status
+
+git commit -m "message to show"
+
+git branch
+
+git push -u origin master
