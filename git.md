@@ -44,3 +44,21 @@ git push -u origin main
 git clone link-to-repo
 
 cd repoName
+
+git add "filename"
+
+git status
+
+git commit -m "message to show"
+
+git branch
+
+git push -u origin master
+
+git branch -M main
+
+git push -u origin main
+
+git pull origin main --allow-unrelated-histories (use only if the above command doest work)
+
+git push -u origin main
