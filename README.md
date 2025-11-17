@@ -16,7 +16,10 @@ git init
 
 git remote add origin link-to-repo
 
-#### to upload code
+
+## Method 1 
+
+### direct uploading to branch or main branch
 
 git add "filename"
 
@@ -35,3 +38,13 @@ git push -u origin main
 git pull origin main --allow-unrelated-histories (use only if the above command doest work)
 
 git push -u origin main
+
+## Method 2
+
+### cloning repo
+
+git clone link-to-repo
+
+cd repoName
+
+
