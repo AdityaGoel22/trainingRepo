@@ -32,6 +32,6 @@ git branch -M main
 
 git push -u origin main
 
-* git pull origin main --allow-unrelated-histories * use only if the above command doest work
+git pull origin main --allow-unrelated-histories (use only if the above command doest work)
 
 git push -u origin main
