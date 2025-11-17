@@ -1,0 +1,46 @@
+## Git
+
+### to config the details use command
+
+git config --global user.name "username"
+
+git config --global user.email "email"
+
+### to initialise and start uploading code on github
+
+cd Desktop/foldername
+
+git init
+
+git remote add origin link-to-repo
+
+
+## Method 1 
+
+### direct uploading to branch or main branch
+
+git add "filename"
+
+git status
+
+git commit -m "message to show"
+
+git branch
+
+git push -u origin master
+
+git branch -M main
+
+git push -u origin main
+
+git pull origin main --allow-unrelated-histories (use only if the above command doest work)
+
+git push -u origin main
+
+## Method 2
+
+### cloning repo
+
+git clone link-to-repo
+
+cd repoName
